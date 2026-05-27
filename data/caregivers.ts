@@ -1,3 +1,15 @@
+export interface Caregiver {
+  id: string;
+  name: string;
+  initials: string;
+  role: string;
+  status: string;
+  schedule: string;
+  notes: Array<{ icon: string; text: string }>;
+  emergencyContact: { name: string; relation: string; phone: string };
+  avatarBg: string;
+}
+
 export const caregivers: Caregiver[] = [
   {
     id: "maria",
