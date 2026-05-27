@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-momentality-primary: #0d9488;
+  --color-momentality-secondary: #fb923c;
+  --color-momentality-navy: #1e293b;
+  --color-momentality-bg: #fafaf9;
+  --color-momentality-secondary-600: #ea580c;
+  --color-momentality-primary-700: #0f766e;
+}
+
+@layer base {
+  :root {
+    --primary: 177 75% 31%;
+    --primary-foreground: 0 0% 100%;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
